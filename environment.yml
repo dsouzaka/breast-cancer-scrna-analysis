@@ -1,0 +1,17 @@
+name: scrna-cancer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - scanpy
+    - jupyter
+    - matplotlib
+    - seaborn
+    - pandas
+    - scipy
+    - igraph
+    - leidenalg
+    - gseapy
